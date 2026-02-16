@@ -7,20 +7,20 @@ export const resumeConfig: ResumeConfig = {
     photo: '/images/photo.jpg',
     photoBackEmoji: '🚀',
     title: {
-      fr: 'Consultant NoCode / LowCode / IA',
-      en: 'NoCode / LowCode / AI Consultant',
+      fr: 'AI Product Builder',
+      en: 'AI Product Builder',
     },
     subtitle: {
-      fr: 'Product Builder Freelance',
-      en: 'Freelance Product Builder',
+      fr: 'NoCode, LowCode & Code — MVP, SaaS, Automatisations métier',
+      en: 'NoCode, LowCode & Code — MVP, SaaS, Business Automation',
     },
     location: 'Lille, France',
   },
 
   // ===== SEO =====
   seo: {
-    title: 'Mickael Bourgois — Consultant NoCode / LowCode / IA',
-    description: 'CV interactif de Mickael Bourgois, Consultant NoCode/LowCode/IA et Product Builder Freelance basé à Lille.',
+    title: 'Mickael Bourgois — AI Product Builder',
+    description: 'Je construis des produits digitaux en 10x moins de temps. NoCode (Bubble) ou Code assisté par IA (React/Next.js). 20+ projets livrés, fondateur de 2 SaaS en production.',
   },
 
   // ===== LANGUAGES =====
@@ -54,69 +54,46 @@ export const resumeConfig: ResumeConfig = {
       ],
     },
     {
-      title: { fr: 'Automatisation & NoCode', en: 'Automation & NoCode' },
+      title: { fr: 'MVP rapide → NoCode', en: 'Fast MVP → NoCode' },
       type: 'badges',
       items: [
-        { name: 'Make' },
         { name: 'Bubble' },
-        { name: 'Agents IA' },
+        { name: 'Airtable' },
+        { name: 'Make' },
+        { name: 'n8n' },
       ],
     },
     {
-      title: { fr: 'LowCode', en: 'LowCode' },
+      title: { fr: 'SaaS scalable → Code + IA', en: 'Scalable SaaS → Code + AI' },
       type: 'badges',
       items: [
-        { name: 'n8n' },
-        { name: 'Python' },
-        { name: 'JavaScript' },
+        { name: 'React' },
+        { name: 'Next.js' },
+        { name: 'TypeScript' },
+        { name: 'Supabase' },
+        { name: 'Tailwind CSS' },
+        { name: 'Stripe' },
+      ],
+    },
+    {
+      title: { fr: 'Dev assisté par IA', en: 'AI-assisted dev' },
+      type: 'badges',
+      items: [
         { name: 'Claude Code' },
         { name: 'Cursor' },
+        { name: 'OpenAI' },
+        { name: 'Anthropic' },
+        { name: 'Python' },
       ],
     },
     {
-      title: { fr: 'Product & Ops', en: 'Product & Ops' },
+      title: { fr: 'Méthode', en: 'Method' },
       type: 'text',
       items: [
         {
           name: {
-            fr: 'Recueil des irritants, définition des specs, gestion Agile du backlog, priorisation MVP',
-            en: 'Pain point discovery, spec writing, Agile backlog management, MVP prioritization',
-          },
-        },
-      ],
-    },
-    {
-      title: { fr: 'Collaboration transverse', en: 'Cross-functional collaboration' },
-      type: 'text',
-      items: [
-        {
-          name: {
-            fr: 'Coordination Produit, Tech, Support, Sales, Marketing',
-            en: 'Product, Tech, Support, Sales, Marketing coordination',
-          },
-        },
-      ],
-    },
-    {
-      title: { fr: 'Culture client', en: 'Customer culture' },
-      type: 'text',
-      items: [
-        {
-          name: {
-            fr: 'Interviews, feedback loops, NPS',
-            en: 'Interviews, feedback loops, NPS',
-          },
-        },
-      ],
-    },
-    {
-      title: { fr: 'Soft skills', en: 'Soft skills' },
-      type: 'text',
-      items: [
-        {
-          name: {
-            fr: 'Autonomie, rigueur, esprit d\'impact, communication',
-            en: 'Autonomy, rigor, impact-driven mindset, communication',
+            fr: 'Audit & cadrage, prototype rapide, sprints courts, livraison documentée + formation',
+            en: 'Audit & scoping, rapid prototype, short sprints, documented delivery + training',
           },
         },
       ],
@@ -138,49 +115,43 @@ export const resumeConfig: ResumeConfig = {
       id: 'freelance',
       company: { fr: 'Indépendant', en: 'Freelance' },
       role: {
-        fr: 'Consultant NoCode/LowCode/IA — Product Builder',
-        en: 'NoCode/LowCode/AI Consultant — Product Builder',
+        fr: 'AI Product Builder',
+        en: 'AI Product Builder',
       },
       type: { fr: 'Freelance', en: 'Freelance' },
       period: { fr: 'Jan. 2023 - Présent', en: 'Jan. 2023 - Present' },
       description: {
-        fr: '+30 clients accompagnés. Conception de webapps (marketplace, SaaS), automatisation de processus métiers, refonte d\'ops de startup. Enseignement NoCode en MBA.',
-        en: '30+ clients supported. Webapp development (marketplace, SaaS), business process automation, startup ops overhaul. NoCode teaching at MBA level.',
+        fr: 'Je construis des produits digitaux en 10x moins de temps. NoCode (Bubble) ou Code + IA (React/Next.js). 20+ projets livrés, 16 notés 5/5 sur Malt. Fondateur de 2 SaaS en production.',
+        en: 'I build digital products 10x faster. NoCode (Bubble) or AI-assisted Code (React/Next.js). 20+ projects delivered, 16 rated 5/5 on Malt. Founder of 2 SaaS in production.',
       },
-      techs: ['Bubble', 'Airtable', 'Make', 'n8n', 'OpenAI', 'Anthropic', 'Claude Code', 'Python', 'JavaScript'],
+      techs: ['Bubble', 'React', 'Next.js', 'Supabase', 'Make', 'n8n', 'Claude Code', 'Stripe', 'OpenAI'],
       isHighlighted: true,
       details: {
         context: {
-          fr: 'Activité freelance de conseil et développement NoCode/LowCode, avec une spécialisation en automatisation et intégration d\'IA. Plus de 30 clients accompagnés dans des secteurs variés.',
-          en: 'Freelance consulting and NoCode/LowCode development, specializing in automation and AI integration. 30+ clients across various industries.',
+          fr: 'Je choisis l\'architecture optimale selon le projet. MVP à valider vite ? NoCode via Bubble. SaaS qui doit scaler ? React + Next.js + Supabase via Claude Code. Dans les deux cas, un produit en production en quelques semaines.',
+          en: 'I pick the optimal architecture for each project. Quick MVP validation? NoCode via Bubble. SaaS that needs to scale? React + Next.js + Supabase via Claude Code. Either way, a product in production within weeks.',
         },
         tasks: {
           fr: [
-            'Refonte totale des Ops d\'une startup (Airtable/Make)',
-            'Conception et développement de webapps (marketplace, SaaS)',
-            'Intégration d\'API tierces (OpenAI, Anthropic, Stripe...)',
-            'Automatisation des processus métiers',
-            'Automatisation de tunnels de vente + scoring leads (n8n, Airtable)',
-            'Analyse des besoins clients et définition des specs',
-            'Collaboration avec des équipes multidisciplinaires',
-            'Maintenance et amélioration continue',
-            'Enseignement NoCode pour 2 écoles (niveau MBA)',
+            'MVP & apps web — de l\'idée au produit fonctionnel en 6 à 8 semaines (20+ projets livrés)',
+            'SaaS scalables — React + TypeScript + Next.js, Supabase, Stripe pour le billing',
+            'Fondateur de 2 SaaS en production — je challenge l\'approche business autant que le produit',
+            'Automatisations & Ops — Make (certifié Partner), n8n, Airtable. Résultat : 10h/semaine économisées pour une équipe ops',
+            'Cadrage des besoins avec fondateurs/dirigeants — traduction business → specs techniques',
+            'Enseignement NoCode pour 2 écoles (niveau MBA) — 60+ étudiants formés',
           ],
           en: [
-            'Complete overhaul of a startup\'s operations (Airtable/Make)',
-            'Design and development of webapps (marketplace, SaaS)',
-            'Third-party API integration (OpenAI, Anthropic, Stripe...)',
-            'Business process automation',
-            'Sales funnel automation + lead scoring (n8n, Airtable)',
-            'Client needs analysis and spec writing',
-            'Collaboration with multidisciplinary teams',
-            'Ongoing maintenance and continuous improvement',
-            'NoCode teaching at 2 schools (MBA level)',
+            'MVPs & web apps — from idea to working product in 6 to 8 weeks (20+ projects delivered)',
+            'Scalable SaaS — React + TypeScript + Next.js, Supabase, Stripe for billing',
+            'Founder of 2 SaaS in production — I challenge the business approach as much as the product',
+            'Automations & Ops — Make (certified Partner), n8n, Airtable. Result: 10h/week saved for an ops team',
+            'Requirements scoping with founders/executives — business → technical spec translation',
+            'NoCode teaching at 2 schools (MBA level) — 60+ students trained',
           ],
         },
         env: {
-          fr: 'Bubble / Airtable / Make / n8n / OpenAI / Anthropic / Python / JavaScript / REST APIs',
-          en: 'Bubble / Airtable / Make / n8n / OpenAI / Anthropic / Python / JavaScript / REST APIs',
+          fr: 'Bubble / React / Next.js / TypeScript / Supabase / Stripe / Tailwind / shadcn/ui / Make / n8n / Airtable / Claude Code / OpenAI / Python',
+          en: 'Bubble / React / Next.js / TypeScript / Supabase / Stripe / Tailwind / shadcn/ui / Make / n8n / Airtable / Claude Code / OpenAI / Python',
         },
       },
     },
@@ -188,39 +159,35 @@ export const resumeConfig: ResumeConfig = {
       id: 'picomto',
       company: { fr: 'Picomto', en: 'Picomto' },
       role: {
-        fr: 'Sales Account Manager / Consultant Industrie 4.0',
-        en: 'Sales Account Manager / Industry 4.0 Consultant',
+        fr: 'Sales Account Manager & Consultant Industrie 4.0',
+        en: 'Sales Account Manager & Industry 4.0 Consultant',
       },
-      type: { fr: 'CDI', en: 'Permanent' },
+      type: { fr: 'CDI — SaaS B2B', en: 'Permanent — B2B SaaS' },
       period: { fr: 'Juil. 2018 - Jan. 2023', en: 'Jul. 2018 - Jan. 2023' },
       description: {
-        fr: 'Vente complexe du SaaS B2B Picomto pour l\'industrie. Livraison de projets pilotes et accompagnement au changement.',
-        en: 'Complex sales of B2B SaaS Picomto for industry. Pilot project delivery and change management.',
+        fr: 'Vente complexe d\'un SaaS de digitalisation industrielle. Double casquette : closer des deals multi-interlocuteurs ET déployer la solution sur le terrain.',
+        en: 'Complex sales of an industrial digitalization SaaS. Dual role: closing multi-stakeholder deals AND deploying the solution on-site.',
       },
       techs: ['HubSpot'],
       details: {
         context: {
-          fr: 'Startup SaaS B2B spécialisée dans la digitalisation des instructions de travail pour l\'industrie. Double casquette Sales et Consultant.',
-          en: 'B2B SaaS startup specializing in digitalizing work instructions for industry. Dual Sales and Consultant role.',
+          fr: 'Startup SaaS B2B qui digitalise les instructions de travail dans l\'industrie. Cycles de vente longs (3-12 mois), interlocuteurs multiples (DSI, Direction Industrielle, Opérations). C\'est ici que j\'ai appris à naviguer entre le monde tech et les enjeux métier.',
+          en: 'B2B SaaS startup digitalizing work instructions in industry. Long sales cycles (3-12 months), multiple stakeholders (CIO, Industrial Director, Operations). This is where I learned to navigate between the tech world and business challenges.',
         },
         tasks: {
           fr: [
-            'Vente complexe du SaaS Picomto auprès de grands comptes industriels',
-            'Analyse des besoins clients et réponse à appels d\'offres',
-            'Négociations et identification d\'opportunités et de partenariats',
-            'Participation à des salons industriels (Global Industrie, VivaTech, BE4.0, CFIA...)',
-            'Livraison de projets pilotes',
-            'Suivi de projets et accompagnement du changement',
-            'Mise en place du cycle de vente complexe',
+            'Vente complexe auprès de grands comptes industriels — cycles de 3 à 12 mois, négociations multi-interlocuteurs',
+            'Diagnostic des problèmes terrain et traduction en cas d\'usage du produit',
+            'Déploiement de projets pilotes — de l\'installation à l\'adoption par les opérateurs',
+            'Accompagnement du changement auprès d\'équipes non-tech (production, maintenance)',
+            'Salons industriels : Global Industrie, VivaTech, BE4.0, CFIA',
           ],
           en: [
-            'Complex SaaS sales to major industrial accounts',
-            'Client needs analysis and RFP responses',
-            'Negotiations and opportunity/partnership identification',
-            'Industrial trade shows (Global Industrie, VivaTech, BE4.0, CFIA...)',
-            'Pilot project delivery',
-            'Project follow-up and change management',
-            'Complex sales cycle implementation',
+            'Complex sales to major industrial accounts — 3 to 12-month cycles, multi-stakeholder negotiations',
+            'Field problem diagnosis and translation into product use cases',
+            'Pilot project deployment — from setup to operator adoption',
+            'Change management with non-tech teams (production, maintenance)',
+            'Industrial trade shows: Global Industrie, VivaTech, BE4.0, CFIA',
           ],
         },
         env: {
@@ -236,35 +203,29 @@ export const resumeConfig: ResumeConfig = {
       type: { fr: 'Alternance (PFE)', en: 'Work-Study (Final Project)' },
       period: { fr: 'Sept. 2017 - Juin 2018', en: 'Sep. 2017 - Jun. 2018' },
       description: {
-        fr: 'Projet de fin d\'études : développement commercial, pilotage de projets et management d\'équipe Bureau d\'Études.',
-        en: 'Final year project: business development, project management and design office team management.',
+        fr: 'Développement commercial et pilotage de projets techniques. Interface entre clients industriels, équipe BE et fournisseurs.',
+        en: 'Business development and technical project management. Interface between industrial clients, design office and suppliers.',
       },
       techs: [],
       details: {
         context: {
-          fr: 'Projet de Fin d\'Études de 8 mois en alternance dans le cadre du diplôme d\'ingénieur EI.CESI.',
-          en: '8-month work-study final year project as part of the EI.CESI engineering degree.',
+          fr: 'Projet de Fin d\'Études (8 mois) — première expérience de la jonction client/technique : comprendre le besoin industriel, chiffrer, piloter la réalisation.',
+          en: 'Final year project (8 months) — first experience bridging client and technical worlds: understanding industrial needs, quoting, managing delivery.',
         },
         tasks: {
           fr: [
-            'Développement du portefeuille clients',
-            'Rédaction de Cahiers Des Charges et élaboration des offres techniques et financières',
-            'Planification de projet (GANTT)',
-            'Respect des exigences Qualité, Coûts, Délais',
+            'Développement du portefeuille clients — prospection et fidélisation',
+            'Rédaction de Cahiers Des Charges et offres techniques/financières',
+            'Pilotage de projets (GANTT) — respect Qualité, Coûts, Délais',
             'Recrutement et management de Dessinateurs Projeteurs',
-            'Coordination de l\'équipe Bureau d\'Études',
             'Interface entre clients, intervenants internes et fournisseurs',
-            'Mise en place d\'un ATS (Système de Gestion des Candidats)',
           ],
           en: [
-            'Client portfolio development',
-            'Technical specification writing and proposal preparation',
-            'Project planning (GANTT)',
-            'Quality, Cost, Deadline compliance',
+            'Client portfolio development — prospection and retention',
+            'Technical specification and proposal writing',
+            'Project management (GANTT) — Quality, Cost, Deadline compliance',
             'Recruitment and management of Design Engineers',
-            'Design Office team coordination',
-            'Interface between clients, internal stakeholders and suppliers',
-            'ATS (Applicant Tracking System) implementation',
+            'Interface between clients, internal teams and suppliers',
           ],
         },
         env: {
@@ -280,36 +241,10 @@ export const resumeConfig: ResumeConfig = {
       type: { fr: 'CDI', en: 'Permanent' },
       period: { fr: 'Avr. 2012 - Avr. 2016', en: 'Apr. 2012 - Apr. 2016' },
       description: {
-        fr: 'Conception d\'équipements mécaniques et conseil en régie. Plus de 20 projets en 4 ans.',
-        en: 'Mechanical equipment design and on-site consulting. 20+ projects in 4 years.',
+        fr: 'Conception mécanique et gestion de 20+ projets industriels. Immersion terrain dans des secteurs variés (énergie, transport, agroalimentaire).',
+        en: 'Mechanical design and management of 20+ industrial projects. Field immersion across various sectors (energy, transport, food industry).',
       },
       techs: [],
-      details: {
-        context: {
-          fr: 'Bureau d\'études en ingénierie mécanique, intervenant en forfait et en assistance technique dans différents secteurs.',
-          en: 'Mechanical engineering design office, working on fixed-price contracts and technical assistance across various industries.',
-        },
-        tasks: {
-          fr: [
-            'Conception d\'équipements mécaniques (avant-projets, études, calculs, suivi de chantier)',
-            'Modélisation sur SolidWorks, Inventor, SolidEdge, AutoCAD',
-            'Conseil en régie (assistance technique) dans différents secteurs',
-            'Rédaction de documentation technique',
-            'AMDEC (Analyse des Modes de Défaillance, de leurs Effets et de leur Criticité)',
-          ],
-          en: [
-            'Mechanical equipment design (preliminary studies, calculations, site follow-up)',
-            'Modeling with SolidWorks, Inventor, SolidEdge, AutoCAD',
-            'On-site consulting (technical assistance) across various industries',
-            'Technical documentation writing',
-            'FMEA (Failure Mode and Effects Analysis)',
-          ],
-        },
-        env: {
-          fr: 'SolidWorks / Inventor / SolidEdge / AutoCAD / MS Project',
-          en: 'SolidWorks / Inventor / SolidEdge / AutoCAD / MS Project',
-        },
-      },
     },
     {
       id: 'akka',
@@ -318,56 +253,8 @@ export const resumeConfig: ResumeConfig = {
       type: { fr: 'CDI', en: 'Permanent' },
       period: { fr: 'Juin 2007 - Mars 2012', en: 'Jun. 2007 - Mar. 2012' },
       description: {
-        fr: 'Missions chez Fives FCB, Alstom et Bombardier. Plans d\'usine, gestion de livrables et procédures de maintenance.',
-        en: 'Assignments at Fives FCB, Alstom and Bombardier. Factory plans, deliverables management and maintenance procedures.',
-      },
-      techs: [],
-      details: {
-        context: {
-          fr: 'Société de conseil en ingénierie. Missions longues chez des grands comptes industriels.',
-          en: 'Engineering consulting firm. Long-term assignments at major industrial clients.',
-        },
-        tasks: {
-          fr: [
-            'FIVES FCB : Réalisation des plans guides et de remontage d\'usine (cimenterie au Qatar)',
-            'ALSTOM : Gestion des livrables techniques soumis à des jalons à forts impacts financiers',
-            'ALSTOM : Mise en place d\'indicateurs et reporting hebdomadaire',
-            'BOMBARDIER : Rédaction des procédures de maintenance préventive',
-          ],
-          en: [
-            'FIVES FCB: Factory guide and reassembly plans (cement plant in Qatar)',
-            'ALSTOM: Technical deliverables management with high-impact financial milestones',
-            'ALSTOM: KPI setup and weekly reporting',
-            'BOMBARDIER: Preventive maintenance procedure writing',
-          ],
-        },
-        env: {
-          fr: 'AutoCAD / DAO-CAO / MS Project / Documentation technique',
-          en: 'AutoCAD / CAD / MS Project / Technical documentation',
-        },
-      },
-    },
-    {
-      id: 'netra',
-      company: { fr: 'Netra Systems', en: 'Netra Systems' },
-      role: { fr: 'Dessinateur', en: 'Technical Drafter' },
-      type: { fr: 'CDI', en: 'Permanent' },
-      period: { fr: '2007', en: '2007' },
-      description: {
-        fr: 'Réalisation de plans d\'ensembles et listes de pièces de rechange de convoyeurs à bouteilles (Perrier, St-Yorre, Coca-Cola...).',
-        en: 'Assembly drawings and spare parts lists for bottle conveyors (Perrier, St-Yorre, Coca-Cola...).',
-      },
-      techs: [],
-    },
-    {
-      id: 'tiberghien',
-      company: { fr: 'Tiberghien Manutention', en: 'Tiberghien Manutention' },
-      role: { fr: 'Dessinateur / Chargé d\'Affaires', en: 'Drafter / Account Manager' },
-      type: { fr: 'CDI', en: 'Permanent' },
-      period: { fr: '2006 - 2007', en: '2006 - 2007' },
-      description: {
-        fr: 'Conception de convoyeurs et systèmes de manutention pour l\'agroalimentaire. Suivi fournisseurs, gestion des stocks, encadrement.',
-        en: 'Design of conveyors and handling systems for the food industry. Supplier management, inventory, team supervision.',
+        fr: 'Missions longue durée chez Fives FCB, Alstom, Bombardier. Gestion de livrables à forts enjeux financiers, coordination multi-sites.',
+        en: 'Long-term assignments at Fives FCB, Alstom, Bombardier. High-stakes deliverables management, multi-site coordination.',
       },
       techs: [],
     },
@@ -418,15 +305,15 @@ export const resumeConfig: ResumeConfig = {
     sections: {
       contact: { fr: 'CONTACT', en: 'CONTACT' },
       skills: { fr: 'COMPÉTENCES', en: 'SKILLS' },
-      experience: { fr: 'EXPÉRIENCES PROFESSIONNELLES', en: 'PROFESSIONAL EXPERIENCE' },
+      experience: { fr: 'PARCOURS', en: 'EXPERIENCE' },
       education: { fr: 'FORMATION', en: 'EDUCATION' },
       hobbies: { fr: 'CENTRES D\'INTÉRÊT', en: 'INTERESTS' },
     },
     experience: {
-      mainTasks: { fr: 'Missions principales :', en: 'Main tasks:' },
-      moreTasks: { fr: 'autres missions...', en: 'more tasks...' },
+      mainTasks: { fr: 'Ce que j\'ai fait :', en: 'What I did:' },
+      moreTasks: { fr: 'voir plus...', en: 'see more...' },
       training: { fr: 'Formations :', en: 'Training:' },
-      techEnv: { fr: 'Env. technique :', en: 'Tech environment:' },
+      techEnv: { fr: 'Stack :', en: 'Stack:' },
       technologies: { fr: 'Technologies', en: 'Technologies' },
     },
     actions: {
