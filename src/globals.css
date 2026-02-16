@@ -48,3 +48,38 @@ body {
 * {
   box-sizing: border-box;
 }
+
+@media print {
+  @page {
+    margin: 0;
+  }
+
+  body {
+    background: white;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  :root {
+    color-scheme: light;
+  }
+
+  /* Disable 3D flip so the photo face is visible */
+  [style*="perspective"] {
+    perspective: none !important;
+  }
+
+  [style*="preserve-3d"] {
+    transform-style: flat !important;
+    transform: none !important;
+  }
+
+  [style*="backface-visibility"] {
+    backface-visibility: visible !important;
+  }
+
+  /* Hide the emoji back-face */
+  [style*="rotateY(180deg)"] {
+    display: none !important;
+  }
+}

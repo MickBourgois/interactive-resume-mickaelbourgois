@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
 export default defineConfig({
-  base: '/interactive-resume-template/',
+  base: '/interactive-resume-mickaelbourgois/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {

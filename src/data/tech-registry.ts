@@ -166,6 +166,23 @@ const TECH_REGISTRY = {
   'Pandas': { color: '#150458' },
   'NumPy': { color: '#013243' },
 
+  // ===== NoCode & Automation =====
+  'Airtable': { color: '#18BFFF' },
+  'Bubble': { color: '#3D3D3D' },
+  'Make': { color: '#6D00CC' },
+  'n8n': { color: '#EA4B71' },
+
+  // ===== CRM =====
+  'HubSpot': { color: '#FF7A59' },
+
+  // ===== AI Providers =====
+  'Anthropic': { color: '#D4A27F' },
+  'Claude Code': { color: '#D4A27F' },
+  'Agents IA': { color: '#8B5CF6' },
+
+  // ===== Dev Tools =====
+  'Cursor': { color: '#000000' },
+
   // ===== CMS & Others =====
   'WordPress': { color: '#21759B' },
   'Strapi': { color: '#4945FF' },
